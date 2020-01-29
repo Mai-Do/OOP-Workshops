@@ -192,7 +192,7 @@ Add a `Restaurant` module to your project. This module should maintain a dynamic
 ***Public Members***
 
 - `Restaurant(Reservation* reservations[], size_t cnt)`: a constructor that receives as a parameter an array of pointers to objects of type `Reservation` (i.e., each element of the array is a pointer). If you need a refresh on arrays of pointers, re-read the material from the last term (chapter **Abstract Base Classes**, section **Array of Pointers**).
-  - this constructor should store copies of all reservations
+  - this constructor should store **copies** of all reservations
 
 - add any other special members that are necessary to manage a the resource
 
@@ -204,23 +204,23 @@ Add a `Restaurant` module to your project. This module should maintain a dynamic
 
 - overload the insertion operator to insert the content of a `Restaurant` object into an **ostream** object:
   - if there are no reservations:
-```
---------------------------
-Fancy Restaurant
---------------------------
-The object is empty!
---------------------------
-```
+  ```
+  --------------------------
+  Fancy Restaurant
+  --------------------------
+  The object is empty!
+  --------------------------
+  ```
   - if there are reservations:
-```
---------------------------
-Fancy Restaurant
---------------------------
-RESERVATION
-RESERVATION
-...
---------------------------
-```
+  ```
+  --------------------------
+  Fancy Restaurant
+  --------------------------
+  RESERVATION
+  RESERVATION
+  ...
+  --------------------------
+  ```
 
 
 
