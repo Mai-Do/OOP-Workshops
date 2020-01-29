@@ -96,21 +96,21 @@ Design and code a class named `Reservation` that should be able to store the fol
 ***Friend Helpers***
 - overload the insertion operator to insert the content of a reservation object into an **ostream** object:
   - if the hour is between 6AM and 9AM (inclusive), the kitchen serves breakfast:
-```
-Reservation ID: NAME  <email>    Breakfast on day DAY @ HOUR:00 for #PARTY_SIZE people.
-```
+  ```
+  Reservation ID: NAME  <email>    Breakfast on day DAY @ HOUR:00 for #PARTY_SIZE people.
+  ```
   - if the hour is between 11AM and 3PM (inclusive), the kitchen serves lunch:
-```
-Reservation ID: NAME  <email>    Lunch on day DAY @ HOUR:00 for #PARTY_SIZE people.
-```
+  ```
+  Reservation ID: NAME  <email>    Lunch on day DAY @ HOUR:00 for #PARTY_SIZE people.
+  ```
   - if the hour is between 5PM and 9PM (inclusive), the kitchen serves dinner:
-```
-Reservation ID: NAME  <email>    Dinner on day DAY @ HOUR:00 for #PARTY_SIZE people.
-```
+  ```
+  Reservation ID: NAME  <email>    Dinner on day DAY @ HOUR:00 for #PARTY_SIZE people.
+  ```
   - at any other time the kitchen is closed and only drinks can be served:
-```
-Reservation ID: NAME  <email>    Drinks on day DAY @ HOUR:00 for #PARTY_SIZE people.
-```
+  ```
+  Reservation ID: NAME  <email>    Drinks on day DAY @ HOUR:00 for #PARTY_SIZE people.
+  ```
   - the name on the reservation should be printed on a field of size 10, aligned to the right
   - the email on the reservation (including the characters `<` and `>`) should be printed on a field of size 20, aligned to the left.
   - this operator should insert the endline character before exiting.
