@@ -80,7 +80,7 @@ Design and code a class named `Reservation` that should be able to store the fol
 
 ***Public Members***
 - a default constructor
-- `Reservation(const std::string& m_res)`: A constructor that receives the reservation as a string; this constructor is responsible to extract the information about the reservation from the parameter and store it in the attributes of the instance. The parameter will always have the following format:
+- `Reservation(const std::string& res)`: A constructor that receives the reservation as a string; this constructor is responsible to extract the information about the reservation from the parameter and store it in the attributes of the instance. The parameter will always have the following format:
 ```
 ID:NAME,EMAIL,PARTY SIZE,DAY,HOUR
 ```
