@@ -253,23 +253,23 @@ This module should maintain a dynamically allocated array of **pointers** to obj
 
 - overload the insertion operator to insert the content of a `ConfirmationSender` object into an **ostream** object:
   - if there are no reservations to confirm:
-```cpp
---------------------------
-Confirmations to Send
---------------------------
-The object is empty!
---------------------------
-```
+  ```cpp
+  --------------------------
+  Confirmations to Send
+  --------------------------
+  The object is empty!
+  --------------------------
+  ```
   - if there are reservations to confirm
-```cpp
---------------------------
-Confirmations to Send
---------------------------
-RESERVATION
-RESERVATION
-...
---------------------------
-```
+  ```cpp
+  --------------------------
+  Confirmations to Send
+  --------------------------
+  RESERVATION
+  RESERVATION
+  ...
+  --------------------------
+  ```
 
 
 ### Sample Output
