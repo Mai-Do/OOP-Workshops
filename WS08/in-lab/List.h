@@ -25,7 +25,7 @@ namespace sdds {
             while (file) {
                 T e;
                 if (e.load(file))
-                    list.push_back(*new T(e));
+                    list.push_back(T(e));
             }
 		}
 		size_t size() const { return list.size(); }
